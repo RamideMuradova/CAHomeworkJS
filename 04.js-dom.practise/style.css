@@ -24,23 +24,35 @@
   background-color: black;
   width: 100%;
   color: white;
+<<<<<<< HEAD
   text-align: end;
+=======
+  padding: 10px;
+  text-align: end;
+  border-radius: 7px;
+>>>>>>> 84f87b38dee1fe04cca45456108befe300bd2a0f
 }
-.numberOne , .numberTwo{
-    width: 45%;
-    font-weight: bold;
-   
+.numberOne,
+.numberTwo {
+  width: 45%;
+  font-weight: bold;
 }
-.addition , .substract , .multiply , .division{
-    width: 100%;
-    padding: 5px;
-    margin: 10px 0;
-    font-weight: bold;
+.addition,
+.substract,
+.multiply,
+.division {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  font-weight: bold;
 }
-.reset{
-    background-color: orange;
-    width: 100%;
-    padding: 5px;
-    margin: 10px 0;
-    border: 3px solid;
+.reset {
+  background-color: orange;
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  border: 3px solid;
+}
+h1{
+  padding: 10px;
 }
