@@ -24,6 +24,7 @@
   background-color: black;
   width: 100%;
   color: white;
+  text-align: end;
 }
 .numberOne , .numberTwo{
     width: 45%;
