@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+}
+.logo {
+  display: flex;
+}
+.logo img h2 {
+  width: 10px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 500;
+}
+.banner-right img {
+  width: 80vh;
+  margin-left: 120vh;
+}
+.hero-banner {
+  display: flex;
+}
+button {
+  padding: 20px;
+  height: 10px;
+}
+button:hover {
+  background-color: red;
+  color: white;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.about-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  width: 70vh;
+  height: 40vh;
+  text-align: center;
+  flex-direction: column;
+  row-gap: 20px;
+  font-size: 20px;
+  background-color: rgb(173, 160, 160);
+  margin-top: 20px;
+}
+#chechList {
+  margin-top: 30px;
+}
+.checkList {
+  background-color: rgb(192, 179, 179);
+  width: 80%;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 120px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.checkList a:hover {
+  color: black;
+}
