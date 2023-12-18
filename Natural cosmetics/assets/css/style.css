@@ -10,13 +10,14 @@
   margin: 0 auto;
 }
 header {
-  background-color: bisque;
+  background-color: beige;
 }
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -78,8 +79,11 @@ nav ul {
   background-color: #ff2b09;
   color: #fff;
 }
+
 h1 {
   text-align: center;
+  font-weight: bold;
+  margin-top: 20vh;
 }
 .cards {
   display: flex;
@@ -90,9 +94,145 @@ h1 {
 }
 .card {
   display: flex;
-  border: 1px solid;
+  border: 0.5px solid;
   text-align: center;
   width: 40%;
   flex-direction: column;
-  padding: 25px;
+  padding: 40px;
+  background-color: #f2f2f2;
 }
+.card i {
+  font-size: 70px;
+  color: #ff2b09;
+}
+.proudOf {
+  display: flex;
+  padding: 80px;
+  margin-top: 90px;
+}
+
+.proudOf .proudOf-left h3 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+.proudOf .proudOf-left p {
+  font-size: 1rem;
+  font-style: italic;
+}
+.proudOf-img img {
+  margin-left: 30%;
+  width: 100%;
+}
+.aboutCosmetics {
+  margin-top: 40px;
+  border: none;
+  padding: 8rem;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.aboutCosmetics a {
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #626262;
+  font-size: 20px;
+  font-weight: bold;
+}
+.aboutCosmetics a:hover {
+  color: #ff2b09;
+  text-decoration: underline;
+}
+.beauty {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.beautyLeft img {
+  width: 100%;
+}
+.beautyRight {
+  width: 50%;
+}
+.beauty .beautyRight h5 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+.beauty .beautyRight p {
+  font-size: 1rem;
+  font-style: italic;
+}
+.beautyRight .read-more {
+  border: 2px solid #ff2b09 !important;
+  padding: 0.6rem 2.8rem;
+  background-color: transparent;
+  transition: all 600ms;
+}
+.beautyRight .read-more:hover {
+  background-color: #ff2b09;
+  color: #fff;
+}
+.specialOffers {
+  display: flex;
+  margin-top: 70px;
+  width: 100%;
+}
+.specialOffers .img {
+  width: 50%;
+}
+.specialOffers .text-box {
+  width: 50%;
+  background-color: #f2f2f2;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.specialOffers .text-box .text-img img {
+  width: 40%;
+}
+.specialOffers .text-box .text-img a {
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #626262;
+  font-size: 20px;
+  font-weight: bold;
+}
+.specialOffers .text-box .text-img a:hover {
+  color: #ff2b09;
+  text-decoration: underline;
+}
+.care-cream {
+  display: flex;
+  margin-top: 70px;
+}
+.care-cream .careLeft h5 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+.care-cream .careLeft p {
+  font-size: 1rem;
+  font-style: italic;
+}
+.care-cream .careRight img {
+  width: 50%;
+}
+.care-cream .read-more {
+  border: 2px solid #ff2b09 !important;
+  padding: 0.6rem 2.8rem;
+  background-color: transparent;
+  transition: all 600ms;
+}
+.care-cream .read-more:hover {
+  background-color: #ff2b09;
+  color: #fff;
+}
+.careRight {
+  display: flex;
+  gap: 20px;
+}
+
