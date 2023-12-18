@@ -6,17 +6,21 @@
   list-style: none;
 }
 .container {
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+header{
+  background-color: bisque;
 }
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f8f9fa;
+  
 }
 .logo {
   display: flex;
+  align-items: center;
 }
 .logo img h2 {
   width: 10px;
@@ -30,7 +34,7 @@ nav ul {
 .icons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 20px;
 }
 .banner-left {
   display: flex;
@@ -61,7 +65,8 @@ h1 {
 .about-us {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 20px;
+
 }
 .cards {
   display: flex;
