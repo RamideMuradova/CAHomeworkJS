@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+header {
+  background-color: #10634ee6;
+  opacity: 0.7;
+  z-index: 10;
+  width: 100%;
+  /* position: fixed; */
+  background-repeat: repeat;
+  background-repeat: cover;
+}
+.header h1 {
+  color: white;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(168, 69, 33);
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  gap: 20px;
+}
+.carousel-item.bg-image1 {
+  background-image: url("../img/sl1-967x725.jpg") !important;
+}
+.carousel-item.bg-image2 {
+  background-image: url("../img/sl7.jpg");
+}
+.carousel-item.bg-image3 {
+  background-image: url("../img/sl4.jpg");
+}
+.carousel-item {
+  height: 100vh;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.content-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+.content-div.d-flex.justify-content-center p {
+  font-style: italic;
+  color: teal;
+}
+.content-div.d-flex.justify-content-center h1 {
+  color: teal;
+}
+button.carousel-control-prev span.visually {
+  color: teal;
+  font-style: italic;
+}
+button.carousel-control-next span.visually {
+  color: teal;
+  font-style: italic;
+}
+span.visually {
+  border-top: 2px solid;
+}
+.florist {
+  margin-top: 50px;
+  display: flex;
+}
+.floristLeft {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+}
+.floristLeft h2,
+p {
+  color: teal;
+}
+.floristRight {
+  position: relative;
+  width: 50%;
+}
+.floristRight .floristImage {
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  bottom: 10px;
+}
+.floristRight .floristImage2 {
+  position: absolute;
+  z-index: -1;
+  right: 40px;
+}
+.services {
+  margin-top: 220px;
+  background-image: url("../img/background2.jpg");
+}
+.services p {
+  font-style: italic;
+  text-align: center;
+  color: teal;
+}
+.services h1 {
+  text-align: center;
+  color: teal;
+}

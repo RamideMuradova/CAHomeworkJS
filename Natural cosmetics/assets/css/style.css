@@ -182,6 +182,9 @@ h1 {
 .specialOffers .img {
   width: 50%;
 }
+.specialOffers .img .offerImg {
+  width: 100%;
+}
 .specialOffers .text-box {
   width: 50%;
   background-color: #f2f2f2;
@@ -235,4 +238,20 @@ h1 {
   display: flex;
   gap: 20px;
 }
-
+.ourbestsellers h1 {
+  text-align: center;
+}
+.ourbestsellers {
+  width: 100%;
+  margin-top: 70px;
+  flex-wrap: wrap;
+}
+.ourbestsellers .imgs img {
+  width: 30%;
+}
+.ourbestsellers .imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
