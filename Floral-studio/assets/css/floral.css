@@ -161,25 +161,28 @@ p {
   margin-top: 70px;
   background-image: url("../img/background1-1-1085x595.jpg");
 }
-.flowers-pricing p,
-h1 {
+.flowers-pricing {
   text-align: center;
   color: #10634e;
+  font-style: italic;
 }
 .flowers-pricing p {
   font-style: italic;
 }
 .flowers .images {
   display: flex;
-  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
   width: 100%;
   padding: 30px;
 }
-.flowers .images img {
-  width: 30%;
+.flowers .images .h3 img {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 30px;
 }
 .events-pricing .cards {
   display: flex;
@@ -230,6 +233,9 @@ h1 {
 p {
   text-align: center;
 }
+#footer {
+  background-color: #e0ecdc;
+}
 .footer {
   display: flex;
   width: 100%;
@@ -278,7 +284,7 @@ p {
   text-decoration: underline;
   color: #1b745e;
 }
-.footer .footerLeft .button button.send{
+.footer .footerLeft .button button.send {
   border: none;
   padding: 0.9rem 1.8rem;
   background-color: #d8e3d5 !important ;
@@ -286,10 +292,10 @@ p {
   cursor: pointer;
   border-bottom: 1px solid black;
 }
-.button p{
+.button p {
   border-bottom: 1px solid black;
 }
-.footer .footerLeft .button button.send:hover{
+.footer .footerLeft .button button.send:hover {
   background-color: #10634e;
   color: #1b745e;
 }
