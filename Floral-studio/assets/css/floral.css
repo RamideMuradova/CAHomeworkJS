@@ -23,11 +23,11 @@ header {
   justify-content: space-between;
   padding: 20px;
 }
-a {
+header a {
   text-decoration: none;
   color: white;
 }
-a:hover {
+header a:hover {
   text-decoration: underline;
   color: rgb(168, 69, 33);
 }
@@ -87,6 +87,7 @@ span.visually {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   gap: 20px;
   width: 50%;
 }
@@ -121,4 +122,174 @@ p {
 .services h1 {
   text-align: center;
   color: teal;
+}
+.services .our-mission {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  padding: 150px;
+}
+
+.services .our-mission .ourmissionLeft {
+  background-color: #1b745e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+}
+.services .our-mission .ourmissionLeft button.read-more {
+  box-sizing: border-box;
+  padding: 0.6rem 2.8rem;
+  background-color: #d8e3d5 !important ;
+  transition: all 600ms;
+}
+.services .our-mission .ourmissionRight {
+  width: 50%;
+}
+.services .our-mission .ourmissionRight img {
+  width: 100%;
+}
+.services .our-mission .ourmissionLeft button.read-more:hover {
+  background-color: #10634e;
+  color: #1b745e;
+}
+
+.flowers-pricing {
+  margin-top: 70px;
+  background-image: url("../img/background1-1-1085x595.jpg");
+}
+.flowers-pricing p,
+h1 {
+  text-align: center;
+  color: #10634e;
+}
+.flowers-pricing p {
+  font-style: italic;
+}
+.flowers .images {
+  display: flex;
+  gap: 60px;
+  width: 100%;
+  padding: 30px;
+}
+.flowers .images img {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.events-pricing .cards {
+  display: flex;
+  margin-top: 40px;
+  gap: 30px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.events-pricing .cards .card {
+  background-color: #fef1e6;
+  padding: 60px;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 30px;
+  border: 1px solid #10634e;
+}
+.events-pricing .cards .card h4 {
+  color: #10634e;
+  gap: 5px;
+}
+.events-pricing .cards .card button.shop-now {
+  border: none;
+  padding: 0.9rem 1.8rem;
+  background-color: #d8e3d5 !important ;
+  transition: all 600ms;
+  cursor: pointer;
+}
+.events-pricing .cards .card button.shop-now:hover {
+  background-color: #10634e;
+  color: #1b745e;
+}
+.our-team {
+  margin-top: 30px;
+}
+.our-team p {
+  text-align: center;
+  color: #10634e;
+  font-style: italic;
+}
+.our-team .workers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+.workers .workers-p h3,
+p {
+  text-align: center;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: #e0ecdc;
+  gap: 50%;
+  padding: 50px;
+}
+.footer h2 {
+  color: #10634ee6;
+  font-style: oblique;
+}
+.footer .footerLeft .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30%;
+}
+.footer .footerRight {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+}
+.footer .footerRight .about a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #1b745e;
+  font-style: italic;
+  text-decoration: none;
+}
+.footer .footerRight .about a:hover {
+  text-decoration: underline;
+  color: #1b745e;
+}
+.footer .footerRight .contact a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #1b745e;
+  font-style: italic;
+  text-decoration: none;
+}
+.footer .footerRight .contact a:hover {
+  text-decoration: underline;
+  color: #1b745e;
+}
+.footer .footerLeft .button button.send{
+  border: none;
+  padding: 0.9rem 1.8rem;
+  background-color: #d8e3d5 !important ;
+  transition: all 600ms;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+.button p{
+  border-bottom: 1px solid black;
+}
+.footer .footerLeft .button button.send:hover{
+  background-color: #10634e;
+  color: #1b745e;
 }
