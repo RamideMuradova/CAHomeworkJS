@@ -230,6 +230,9 @@ h1 {
 p {
   text-align: center;
 }
+#footer{
+  background-color: #e0ecdc;
+}
 .footer {
   display: flex;
   width: 100%;
@@ -238,7 +241,7 @@ p {
   padding: 50px;
 }
 .footer h2 {
-  color: #10634ee6;
+  color: #1b745e;
   font-style: oblique;
 }
 .footer .footerLeft .button {
@@ -293,3 +296,4 @@ p {
   background-color: #10634e;
   color: #1b745e;
 }
+
