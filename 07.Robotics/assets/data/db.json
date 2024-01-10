@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "The Upper Eye",
+      "image": "./assets/images/p1.png",
+      "desc": "Who are in extremely love with eco friendly system."
+    },
+    {
+      "id": 2,
+      "title": "The Crab Wheel",
+      "image": "./assets/images/p1.png",
+      "desc": "Who are in extremely love with eco friendly system."
+    },
+    {
+      "id": 3,
+      "title": "The Plug Ninja",
+      "image": "./assets/images/p1.png",
+      "desc": "Who are in extremely love with eco friendly system."
+    },
+    {
+      "title": "The Uppercase Eye",
+      "desc": "",
+      "id": 4,
+      "image": "./assets/images/p3.png"
+    }
+  ]
+}
