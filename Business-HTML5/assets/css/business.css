@@ -30,6 +30,15 @@
 }
 .header .header-right .social-icons {
   color: white;
+  display: flex;
+  gap: 20px;
+ 
+}
+.header .header-right .social-icons i:hover{
+  color: #ff2143;
+  transform: rotateY(180deg);
+  animation-duration: 5ms;
+  
 }
 #header-bottom {
   background-color: whitesmoke;
