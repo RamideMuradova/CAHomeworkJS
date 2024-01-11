@@ -67,18 +67,39 @@ h2 {
   justify-content: center;
   flex-direction: column;
 }
-/* .carousel-item-container {
+.carousel-item-container {
   position: relative;
 }
+
 .carousel-item-container .carousel-text {
+  color: white;
   position: absolute;
-} */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .carousel-item-container .btns {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
+.btns button.down {
+  padding: 10px;
+  background-color:#7cbd1e ;
+  color: white;
+  
+}
+.btns button.get {
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+}
+.btns button.get:hover{
+  background-color: #7cbd1e;
+}
+
 
 /* ABOUT SECTION */
 .about-cards {
@@ -152,21 +173,46 @@ button.now:hover {
   font-size: rem;
 }
 
-
 /* OUR SECTION */
-h3{
-    text-align: center;
+/* .our {
+  margin-top: 3.5rem;
 }
-.our-cards{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.our-card .us{
-    display: flex;
-    gap: 5px;
+.our h3 {
+  text-align: center;
+  color: #4d4d4d;
+  font-style: normal;
+} */
+/* .our-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
 
+/* .our-card .us {
+  display: flex;
+  gap: 5px;
 }
-.our-card .us img{
-width: 70%;
+.our-card .us h4 {
+  margin-top: 20px;
 }
+.our-card .us img {
+  width: 20%;
+}
+.our-cards .our-top {
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+}
+.our-cards .our-bottom {
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+}
+.our-top .our-card {
+  display: flex;
+  flex-direction: column;
+}
+.our-bottom .our-card {
+  display: flex;
+  flex-direction: column;
+} */
