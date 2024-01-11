@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/server.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+    ></script>
+    <script defer src="./assets/js/server.js"></script>
+
+    <title>Server Website</title>
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header>
+      <div class="container">
+        <div class="header-top">
+          <div class="logo">
+            <img src="./assets/images/header.logo.png" alt="" />
+            <span>SERVER</span>
+          </div>
+          <div class="icon">
+            <img src="./assets/images/icon1.png" alt="" />
+            <div class="text">
+              <h6>24/7 Support</h6>
+              <span>1-800-200-3911</span>
+            </div>
+          </div>
+          <div class="icon">
+            <img src="./assets/images/icon2.png" alt="" />
+            <div class="text">
+              <h6>EMAIL</h6>
+              <span>mail@domain.com</span>
+            </div>
+          </div>
+          <div class="icon">
+            <img src="./assets/images/icon3.png" alt="" />
+            <div class="text">
+              <h6>Live Chat</h6>
+              <span>Chat With Us Now</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="header-bottom">
+      <div class="container">
+        <div class="header-bottom">
+          <nav>
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">DOMAIN</a></li>
+              <li><a href="#">HOSTING</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </nav>
+          <div class="buttons">
+            <button class="register">REGISTER</button>
+            <button class="log">LOGIN</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HERO-BANNER -->
+    <section id="hero-banner">
+      <div class="container">
+        <div id="-hero-banner">
+          <div class="hero-banner">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="container">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-item-container">
+                      <div class="carousel-text">
+                        <h1>Affordable Domains</h1>
+                        <h2>from $7/year</h2>
+                        <div class="btns">
+                          <button class="down">DOWNLOAD</button>
+                          <button class="get">GET IN TOUCH</button>
+                        </div>
+                      </div>
+
+                      <div class="carousel">
+                        <img
+                          src="./assets/images/hero_bg_2.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-item-container">
+                      <div class="carousel">
+                        <div class="carousel-text">
+                          <h1>24/7 Customer Support</h1>
+                          <h2>SUPPORT</h2>
+                          <div class="btns">
+                            <button class="down">DOWNLOAD</button>
+                            <button class="get">GET IN TOUCH</button>
+                          </div>
+                        </div>
+                        <img
+                          src="./assets/images/hero_bg_1.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <div class="container">
+        <div class="about">
+          <div class="h3">
+            <h3>Different hosting platforms to suit every need!</h3>
+          </div>
+          <div class="about-cards">
+            <div class="about-card">
+              <img src="./assets/images/card1.png" alt="" />
+              <h3>Shared Hosting</h3>
+              <p>Plans start at $3.99/month</p>
+              <button class="view">VIEW DETAILS</button>
+            </div>
+            <div class="about-card">
+              <img src="./assets/images/card2.png" alt="" />
+              <h3>Dedicated Hosting</h3>
+              <p>Plans start at $3.99/month</p>
+              <button class="view">VIEW DETAILS</button>
+            </div>
+            <div class="about-card">
+              <img src="./assets/images/card3.png" alt="" />
+              <h3>Premium Hosting</h3>
+              <p>Plans start at $3.99/month</p>
+              <button class="view">VIEW DETAILS</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CLIENTS SECTION -->
+    <section id="clients">
+      <div class="container">
+        <div class="clients">
+          <div class="clients-right">
+            <h1>Satisfied Clients</h1>
+            <h2>We are rated 4.99 / 5.00 (based on 4443 Reviews)</h2>
+            <button class="now">REGISTER NOW</button>
+          </div>
+          <div class="clients-left"></div>
+        </div>
+      </div>
+    </section>
+    <!-- OUR SECTION -->
+    <section id="our">
+      <div class="container">
+        <div class="our">
+          <h3>Why Choose Us</h3>
+          <div class="our-cards">
+            <div class="our-top">
+              <div class="our-card">
+                <div class="us">
+                  <img src="./assets/images/our1.png" alt="" />
+                  <h4>High Quality Hardware</h4>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur is a nice adipisicing
+                  elita ssumenda a similique perferendis dolorem eos.
+                </p>
+              </div>
+              <div class="our-card">
+                <div class="us">
+                  <img src="./assets/images/our2.png" alt="" />
+                  <h4>Top Data Centers</h4>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur is a nice adipisicing
+                  elita ssumenda a similique perferendis dolorem eos.
+                </p>
+              </div>
+              <div class="our-card">
+                <div class="us">
+                  <img src="./assets/images/our3.png" alt="" />
+                  <h4>Outstanding Speed</h4>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur is a nice adipisicing
+                  elita ssumenda a similique perferendis dolorem eos.
+                </p>
+              </div>
+            </div>
+            <div class="our-bottom">
+              <div class="our-card">
+                <div class="us">
+                  <img src="./assets/images/our4.png" alt="" />
+                  <h4>Amazing Uptime</h4>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur is a nice adipisicing
+                  elita ssumenda a similique perferendis dolorem eos.
+                </p>
+              </div>
+              <div class="our-card">
+                <div class="us">
+                  <img src="./assets/images/our5.png" alt="" />
+                  <h4>Best Support</h4>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur is a nice adipisicing
+                  elita ssumenda a similique perferendis dolorem eos.
+                </p>
+              </div>
+              <div class="our-card">
+                <div class="us">
+                  <img src="./assets/images/our6.png" alt="" />
+                  <h4>Client Reviews</h4>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur is a nice adipisicing
+                  elita ssumenda a similique perferendis dolorem eos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
