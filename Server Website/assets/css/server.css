@@ -174,21 +174,28 @@ button.now:hover {
 }
 
 /* OUR SECTION */
-/* .our {
+.our {
   margin-top: 3.5rem;
 }
 .our h3 {
   text-align: center;
   color: #4d4d4d;
   font-style: normal;
-} */
-/* .our-cards {
+} 
+.our .our-cards {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-} */
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  
+}
+.our .our-cards .our-card{
+  width: 30%;
+}
 
-/* .our-card .us {
+ .our-card .us {
   display: flex;
   gap: 5px;
 }
@@ -198,16 +205,16 @@ button.now:hover {
 .our-card .us img {
   width: 20%;
 }
-.our-cards .our-top {
+/* .our-cards .our-top {
   display: flex;
   gap: 20px;
   margin-top: 25px;
-}
-.our-cards .our-bottom {
+} */
+/* .our-cards .our-bottom {
   display: flex;
   gap: 20px;
   margin-top: 25px;
-}
+} */
 .our-top .our-card {
   display: flex;
   flex-direction: column;
@@ -215,4 +222,4 @@ button.now:hover {
 .our-bottom .our-card {
   display: flex;
   flex-direction: column;
-} */
+}
