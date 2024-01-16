@@ -1,41 +1,16 @@
 {
-    "products":[
-        {
-            "id":1,
-            "image":"./assets/images/our1.png",
-            "title":"High Quality Hardware",
-            "desc":"Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
-        },
-        {
-            "id":2,
-            "image":"./assets/images/our2.png",
-            "title":"Top Data Centers",
-            "desc":"Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
-        },
-        {
-            "id":3,
-            "image":"./assets/images/our3.png",
-            "title":"Outstanding Speed",
-            "desc":"Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
-        },
-        {
-            "id":4,
-            "image":"./assets/images/our4.png",
-            "title":"Amazing Uptime",
-            "desc":"Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
-        },
-        {
-            "id":5,
-            "image":"./assets/images/our5.png",
-            "title":"Best Support",
-            "desc":"Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
-        },
-        {
-            "id":6,
-            "image":"./assets/images/our6.png",
-            "title":"Client Reviews",
-            "desc":"Lorem ipsum dolor sit amet consectetur is a nice adipisicing elita ssumenda a similique perferendis dolorem eos."
-        }
-        
-    ]
+  "products": [
+    {
+      "id": 1,
+      "image": "./assets/images/our2.png",
+      "title": "Large Quality Hardware",
+      "desc": " Lorem ipsum dolor sit amet consectetur is a nice adipisic elita ssumenda a similique perferendis dolorem eos."
+    },
+    {
+      "id": 1,
+      "image": "./assets/images/our3.png",
+      "title": "Small Quality Hardware",
+      "desc": " Lorem ipsum dolor sit amet consectetur is a nice adipisic elita ssumenda a similique perferendis dolorem eos."
+    }
+  ]
 }

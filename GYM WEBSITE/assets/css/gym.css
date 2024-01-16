@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  /* HEADER SECTION CSS */
+}
+
+#header-bottom {
+  border-top: 1px solid black;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.box {
+  background-color: red;
+  padding: 40px;
+  height: 5px;
+  margin-bottom: 10px;
+}
+.box i {
+  color: white;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+li a:hover {
+  color: red;
+}
+
+/* HERO-BANNER SECTION CSS */
+
+#hero-banner {
+  background-image: url("../images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero-banner .text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+/* ABOUT SECTION CSS */
+.about-text {
+  text-align: center;
+  margin-top: 30px;
+}
+.about-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: 30px;
+}
+.about-card {
+  border: 0.5px solid whitesmoke;
+  width: 50%;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 20px 60px 0px rgba(246, 33, 75, 0.3);
+}
+.about-cards img {
+  margin-left: 40%;
+}
+.about-cards h4,
+p {
+  text-align: center;
+}
+
+/* HOME SECTION */
+
+.home-text {
+  text-align: center;
+}
+.home-cards {
+  gap: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.home-card img {
+  width: 100%;
+}
+.home-card {
+  position: relative;
+}
+button {
+  position: absolute;
+  color: white;
+  background-color: red;
+}
+.price {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+#week {
+  background-image: url("../images/callto-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  margin-top: 80px;
+}

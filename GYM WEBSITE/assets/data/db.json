@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "./assets/images/o3.png",
+      "title": "Regular Exercise",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+    },
+    {
+      "id": 2,
+      "image": "./assets/images/o3.png",
+      "title": "Regular Exercise",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/o3.png",
+      "title": "Regular Exercise",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore"
+    }
+  ]
+}
