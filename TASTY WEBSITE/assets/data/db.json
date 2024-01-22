@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "image": "./images/dish-6.jpg",
+      "title": "Spicy Fried Rice & Bacon",
+      "desc": "Meat, Potatoes, Rice, Tomatoe",
+      "price": "$29",
+      "category": "drinks"
+    },
+    {
+      "id": 4,
+      "image": "./images/dish-7.jpg",
+      "title": "Grilled Beef with potatoes",
+      "desc": "Meat, Potatoes, Rice, Tomatoe",
+      "price": "$29",
+      "category": "main"
+    }
+  ]
+}

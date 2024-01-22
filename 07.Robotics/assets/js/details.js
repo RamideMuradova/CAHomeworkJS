@@ -1,32 +1,47 @@
+// let id = new URLSearchParams(window.location.search).get("id");
+
+// const details = document.querySelector(".details");
+
+// const BASE_URL = "http://localhost:8080/products";
+
+// async function getData() {
+//   const res = await axios(`${BASE_URL}`);
+//   console.log(res.data);
+//   drawCard(res.data);
+// }
+// getData();
+// function drawCard(data) {
+//   data.forEach((element) => {
+//     if (element.id == id) {
+//       details.innerHTML = `
+//         <div class="card">
+//         <img src="${element.image}" alt="" />
+//         <div class="text">
+//           <h3>${element.title}</h3>
+//           <p>${element.desc}</p>
+//           <button class="details">VIEW DETAILS</button>
+//          </div>
+//        </div>`;
+//     }
+//   });
+// }
+
 let id = new URLSearchParams(window.location.search).get("id");
-
 const details = document.querySelector(".details");
-const header = document.querySelector("header");
+const BASE_URL=""
 
-const BASE_URL = "http://localhost:8080/products";
-const goBack = document.createElement("button");
-
-goBack.innerText = "Go back";
-
-header.after(goBack);
-
-async function getData() {
-  const res = await axios(`${BASE_URL}/${id}`);
-  //   console.log(res.data);
-  details.innerHTML = `
-  <div class="card">
-  <img src="${res.data.image}" alt="" />
-  <div class="text">
-    <h3>${res.data.title}</h3>
-    <p>${res.data.desc}</p>
-    <button class="details">VIEW DETAILS</button>
-  </div>
-</div>
-  `;
+async function getData(){
+    const res=await axios(`${BASE_URL}/products`)
+    console.log(res.data);
+    drawCard(res.data)
 }
+getData()
 
-getData();
-
-goBack.addEventListener("click", function () {
-  window.history.back() 
-});
+function drawCard(data){
+    data.forEach((element) => {
+    if(element.id==id){
+        details.innerHTML=`
+        `
+    }
+    });
+}

@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "text": "Scrambled Eggs with ham",
+      "desc": "with wild mushrooms and asparagus",
+      "price": "$9.00",
+      "category": "breakfast"
+    },
+    {
+      "id": "2",
+      "text": "Scrambled Eggs in Puff Pastry",
+      "desc": "with wild mushrooms and asparagus",
+      "price": "$11.00",
+      "category": "bruch"
+    },
+    {
+      "id": "3",
+      "text": "Eggs Benedict",
+      "desc": "with wild mushrooms and asparagus",
+      "price": "$6.00",
+      "category": "lunch"
+    },
+    {
+      "id": "4",
+      "text": "Soft-Boiled Organic Egg",
+      "desc": "with wild mushrooms and asparagus",
+      "price": "$8.00",
+      "category": "dinner"
+    }
+  ]
+}

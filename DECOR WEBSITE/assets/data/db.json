@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "image": "./assets/images/shop-product-13-600x800.webp",
+      "title": "Egestas Purus",
+      "price": "$65.00",
+      "desc": "FURNITURE"
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/shop-product-6-600x800.webp",
+      "title": "Habitant Morbi",
+      "price": "$28.00",
+      "desc": "FURNITURE"
+    },
+    {
+      "id": 4,
+      "image": "./assets/images/shop-product-17-600x800.webp",
+      "title": "Magna Fringilla",
+      "price": "$48.00",
+      "desc": "FURNITURE"
+    }
+  ]
+}

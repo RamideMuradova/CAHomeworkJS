@@ -1,0 +1,11 @@
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.det-image {
+  width: 40%;
+}
+.det-image img {
+  width: 100%;
+}

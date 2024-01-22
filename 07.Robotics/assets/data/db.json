@@ -19,10 +19,22 @@
       "desc": "Who are in extremely love with eco friendly system."
     },
     {
-      "title": "The Uppercase Eye",
-      "desc": "",
       "id": 4,
+      "title": "The Uppercase Eye",
+      "desc": "Who are in extremely love with eco friendly system",
       "image": "./assets/images/p3.png"
+    },
+    {
+      "title": "In dolorem porro lab",
+      "desc": "Saepe autem aliqua ",
+      "image": "./assets/images/undefined",
+      "id": 6
+    },
+    {
+      "title": "Quod omnis quia repu",
+      "desc": "Suscipit assumenda q",
+      "image": "",
+      "id": 7
     }
   ]
 }
